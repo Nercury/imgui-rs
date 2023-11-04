@@ -19,6 +19,11 @@ jobs:
     name: Run linter
     runs-on: ubuntu-latest
     if: github.ref == 'refs/heads/main'
+
+    strategy:
+      matrix:
+        rust: ["1.64"]
+
     env:
       RUSTFLAGS: -D warnings
       RUSTDOCFLAGS: -D warnings

@@ -10,6 +10,8 @@
 - Fixed handling of modifiers keys - [PR#710](https://github.com/imgui-rs/imgui-rs/pull/710)
 - There is a new "viewport" renderer which uses the docking branch's multi-viewport handling! - [PR#619](https://github.com/imgui-rs/imgui-rs/pull/619)
 
+- Breaking: Updated winit to `0.28` for `imgui-winit-support`.
+
 ## [0.10.0] - 2023-01-16
 
 - Breaking: Removed `im_str!` macro - deprecated since v0.8.
